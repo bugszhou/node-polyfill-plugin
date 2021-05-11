@@ -1,0 +1,27 @@
+{
+  "name": "node-builtin-polyfill-webpack-plugin",
+  "version": "0.0.1",
+  "description": "node builtin module polyfill",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugszhou/node-polyfill-plugin.git"
+  },
+  "keywords": [
+    "node",
+    "builtin",
+    "module",
+    "polyfill",
+    "webpack",
+    "plugin"
+  ],
+  "author": "bugszhou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bugszhou/node-polyfill-plugin/issues"
+  },
+  "homepage": "https://github.com/bugszhou/node-polyfill-plugin#readme"
+}
