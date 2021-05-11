@@ -10,6 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/bugszhou/node-polyfill-plugin.git"
   },
+  "files": [
+    "lib/index.js",
+    "index.d.ts"
+  ],
   "keywords": [
     "node",
     "builtin",
@@ -23,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/bugszhou/node-polyfill-plugin/issues"
   },
-  "homepage": "https://github.com/bugszhou/node-polyfill-plugin#readme"
+  "homepage": "https://github.com/bugszhou/node-polyfill-plugin#readme",
+  "dependencies": {
+    "filter-obj": "^2.0.2"
+  }
 }
