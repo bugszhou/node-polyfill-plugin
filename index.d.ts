@@ -1,4 +1,4 @@
-import { Compiler } from "webpack"
+import { Compiler, ProvidePlugin } from "webpack"
 
 declare namespace NodeBuiltinPolyfillWebpackPlugin {
 	export type Alias =
@@ -46,6 +46,8 @@ declare class NodeBuiltinPolyfillWebpackPlugin {
 	constructor(options: NodeBuiltinPolyfillWebpackPlugin.Options)
 
 	apply(compiler: InstanceType<typeof Compiler>): void
+
+	get plugin(): ProvidePlugin
 }
 
 export = NodeBuiltinPolyfillWebpackPlugin
